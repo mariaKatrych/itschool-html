@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="shortcut icon" href="img/icon.svg" type="image/x-icon">
-    <link rel="stylesheet" href="css/common.css">
+    <link rel="shortcut icon" href="../img/icon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="../css/common.css">
     <title>Бази даних</title>
 </head>
 <body>
     <header id="logo">
-        <span><a href="../index.html">IT School</a></span>
+        <h1><a href="../index.html">IT School</a></h1>
         <nav>
-            <ul>
+            <ul class="menu">
                 <li><a href="../index.html#courses">Курси</a></li>
                 <li><a href="../index.html#feedback">Відгуки</a></li>
                 <li><a href="../index.html#companies">Компанії</a></li>
@@ -22,7 +22,8 @@
     </header>
     <main>
         <section class="description">
-            <h1>Бази даних</h1>
+            <h1 class="course-header">Бази даних</h1>
+            <hr>
             <img src="../img/database-icon.png" alt="Database icon">
             <p>Мета курсу — надати слухачам знання та навички, необхідні для освоєння технологій баз 
             даних або розширення своїх знань в цій області. Курс описує основні концепції баз даних, 
@@ -32,8 +33,9 @@
             <h3>Вартість курсу: 12 000</h3>
         </section>
         <section class="program">
-            <h1>Програма курсу</h1>
-             <ul>
+            <hr>
+            <h1 class="course-header">Програма курсу</h1>
+             <ol class="program-list">
                 <li>Реляційна база даних.  Дизайн бази даних. Діаграми</li>
                 <li>Побудова звязків між сутностями</li>
                 <li>Робота з обєктами баз даних :  створення таблиць, представлень, робота з констрейнтами</li>
@@ -47,7 +49,7 @@
                 <li>SSIS. Побудова проекту для заливки даних з файлів у базу даних. Забезпечення інрементальної заливки даних</li>
                 <li>Аналітика. Побудова звітів за допомогою SSRS, TABLEAU</li>
                 <li>Закріплення теоретичних знань</li>
-            </ul>
+            </ol>
         </section>
         <section id="registration">
             <h2>Реєструйся на курс прямо зараз</h2>
@@ -82,27 +84,27 @@
             </form>
         </section>
     </main>
-    <footer>
+<footer>
         <div id="location">
-            <img src="../img/place.png" alt="Location icon">
-            <h4>м. Львів, вул. Валова, 16</h4>
-            <h4>Графік роботи:</h4>
-            <h4>Пн-Пт 09.00-21.00</h4>
-            <h4>Сб-Нд 10.00-20.00</h4>
+         <div class="footer-image">  <span> <img src="../img/place.png" alt="Location icon"></span></div>
+            <p>м. Львів, вул. Валова, 16</p>
+            <p>Графік роботи:</p>
+            <p>Пн-Пт 09.00-21.00</p>
+            <p>Сб-Нд 10.00-20.00</p>
         </div>
         <div id="contacts">
-            <img src="../img/phone.png" alt="Phone icon">
+            <div class="footer-image">  <span> <img src="../img/phone.png" alt="Phone icon"></span></div>
             <h4>(098) 242-91-33</h4>
-            <h4>(800) 242-933</h4>
+            <p>(800) 242-933</p>
         </div>
         <div id="social-media">
             <h3>Слідкуйте за нами</h3>
-            <img src="../img/facebook.png" alt="Facebook icon">
+          <div class="footer-image">  <span>   <img src="../img/facebook.png" alt="Facebook icon">
             <img src="../img/instagram.png" alt="Instagram icon">
-            <img src="../img/telegram.png" alt="Telegram icon">
-            <h4>Email: mariaKatrych@gmail.com</h4>
+            <img src="../img/telegram.png" alt="Telegram icon"></span></div>
+            <p>Email: mariaKatrych@gmail.com</p>
         </div>
-        <span>© 2020 IT School - використання матеріалів IT School дозволено з попередньої згоди правовласників.</span>
+        <span id="copyright">© 2020 IT School - використання матеріалів IT School дозволено з попередньої згоди правовласників.</span>
     </footer>
 </body>
 </html>
