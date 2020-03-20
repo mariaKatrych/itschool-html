@@ -54,3 +54,68 @@ header div p{
     align-items: center;
     flex-direction: column;
 }
+
+.section-names{
+    font-size: 2rem;
+    color:#585452;
+    margin: 10px;
+}
+
+.course-name{
+    margin: 10px;
+    font-size: 1.25rem;
+    color: #585452;
+}
+
+#courses img{
+    float: left;
+    width: 10%;
+    margin: 30px;
+}
+
+.course p{
+    font-size: 1rem;
+    color: #585452;
+}
+
+.learn-more{
+    margin: 30px;
+    padding: 10px;
+    color: #fff !important;
+    background:#e23e57; 
+    border-radius: 15px;
+    border: none;
+    float: right;
+}
+
+hr{  
+  border: 1px solid #585452;
+  opacity: 0.2;
+}
+
+.feedback img{
+    margin: auto;
+    margin-right: 10px;
+    float: left;
+    width: 80px;
+}
+
+.feedback p{
+    padding: 20px;
+}
+
+#companies img{
+    width: 310px;
+    height: 80px;
+    display: inline-block;
+}
+
+
+
+
+footer *{
+    background-color: #e23e57;
+}
+
+
+
