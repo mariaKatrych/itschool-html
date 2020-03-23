@@ -1,7 +1,7 @@
 document.querySelector('.web').addEventListener('click', openWeb);
 
 function openWeb() {
-    window.location.replace('../html/web-development.html');
+    window.location.replace('web-development.html');
 }
 
 document.querySelector('.db').addEventListener('click', openDB);
